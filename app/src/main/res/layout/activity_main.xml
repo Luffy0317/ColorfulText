@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <batterydoctor.bufu.zhuanzhi.app.test_my.MyTextView
+        android:id="@+id/tv_getinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击获取信息"
+        android:padding="20dp"
+        android:textSize="20sp"/>
+
+        <batterydoctor.bufu.zhuanzhi.app.test_my.ScrollBgView
+            android:id="@+id/sbv"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:text="TestVAdttgc"
+                android:layout_centerInParent="true"/>
+        </batterydoctor.bufu.zhuanzhi.app.test_my.ScrollBgView>
+</LinearLayout>
